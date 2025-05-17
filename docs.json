@@ -11,12 +11,20 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "AnTa App",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Bắt Đầu",
             "pages": [
               "index",
+              "quickstart",
+              "development"
+            ]
+          },
+          {
+            "group": "Báo Cáo",
+            "pages": [
+              "sale-reports/sale-funnels-reports",
               "quickstart",
               "development"
             ]
