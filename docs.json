@@ -43,18 +43,18 @@
         ]
       },
       {
-        "tab": "Phần Mềm Sale",
+        "tab": "P. Kinh Doanh",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Bắt Đầu",
             "pages": [
-              "api-reference/introduction"
+              "p.kinh-doanh/gioi-thieu"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "POS",
             "pages": [
-              "api-reference/endpoint/get",
+              "p.kinh-doanh/deal/giam-gia-don-hang",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
