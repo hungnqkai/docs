@@ -55,6 +55,7 @@
             "group": "POS",
             "pages": [
               "p.kinh-doanh/deal/uu-tien-xuat-don",
+              "p.kinh-doanh/deal/khach-chuyen-khoan",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
