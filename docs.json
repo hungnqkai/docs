@@ -61,6 +61,23 @@
         ]
       },
       {
+        "tab": "P. CSKH",
+        "groups": [
+          {
+            "group": "Bắt Đầu",
+            "pages": [
+              "p.cskh/pos/thu-cod-tu-shipper"
+            ]
+          },
+          {
+            "group": "POS",
+            "pages": [
+              "p.kinh-doanh/deal/uu-tien-xuat-don"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "API Reference",
         "groups": [
           {
