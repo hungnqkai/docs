@@ -1,0 +1,49 @@
+---
+title: "Cách Chuyển Khoản Tiền COD Từ Shipper"
+description: "Áp dụng cho trường hợp nhận tiền COD từ Shipper"
+---
+
+## Lưu Ý
+
+Đội CSKH lưu ý: 
+
+- Trách nhiệm thu tiền COD đúng và đủ thuộc về nhân sự phụ trách CSKH của đơn hàng đó
+- Cần đảm bảo hệ thống POS đã báo chuyển khoản và nhận được tiền thành công
+
+> **Lưu ý: Làm đúng theo hệ thống để phần mềm tự động nhận diện và ghi nhận khoản thanh toán thành công**
+
+## Cách Gửi Thông Tin Tài Khoản Để Nhận COD
+
+Để gửi thông tin tài khoản ngân hàng, ta làm theo các bước sau:
+
+- **Bước 1: Khấu trừ phí SHIP (nếu có)**\
+  Trong trường hợp cần giảm trừ phí ship để ra số tiền thu COD cuối cùng (ví dụ: Đơn hàng là 690.000đ, phí ship là 40.000đ thì ta cần khấu trừ 40.000đ =\> COD cuối cùng sẽ là 650.000đ (690.000đ - 40.000đ)\
+  \
+  **- Bước 1.1:** Mở chi tiết deal trên POS và click vào dấu 3 chấm (như hình ảnh) để thêm phương thức thanh toán "**Khấu trừ phí ship**"
+
+  ![image.png](/images/image.png)
+
+  **- Bước 1.2:** Lúc này phần mềm sẽ hiện ra danh sách các phương thức thanh toán =\> Ta chọn "**Khấu trừ phí SHIP**" (Đánh dấu tích vào ô vuông bên cạnh)
+
+  ![Screenshot 2025-06-21 104610.png](/images/Screenshot2025-06-21104610.png)
+
+  **- Bước 1.3:** Điền phí ship cần khấu trừ:\
+  Lúc này sẽ hiện phần khấu trừ phí ship ở mục **Thanh Toán **của đơn hàng.\
+  Ta điền số tiền ship cần khấu trừ vào đó\
+  Lúc này số tiền COD sẽ thay đổi tương ứng còn 650.000đ
+
+  **Lưu ý: Cần ấn LƯU để cập nhật deal**
+
+  ![Screenshot 2025-06-21 105205.png](/images/Screenshot2025-06-21105205.png)
+- **Bước 2: Gửi thông tin thanh toán cho Shiper**
+
+  Click vào biểu tượng mã QR ở phần link thanh toán để lấy thông tin chuyển khoản
+
+  ![Screenshot 2025-06-21 105455.png](/images/Screenshot2025-06-21105455.png)
+
+  Sau khi click phần mềm sẽ hiện ra thông tin thanh toán như sau
+
+  ![Screenshot 2025-06-21 105550.png](/images/Screenshot2025-06-21105550.png)
+- **Bước 3: Cần Xác Nhận Chuyển Khoản Thành Công**
+
+  Sau khi shiper chuyển khoản thì POS sẽ thông báo chuyển khoản thành công
