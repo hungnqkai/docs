@@ -17,8 +17,7 @@
             "group": "Bắt Đầu",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "anta-hub/extension-chrome"
             ]
           },
           {
